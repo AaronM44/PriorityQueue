@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e78f1bf-638a-44ed-a42e-2f474a118c23" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/queuemanager/UnsortedArrayPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queuemanager/UnsortedArrayPriorityQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,8 +49,8 @@
       <file leaf-file-name="UnsortedArrayPriorityQueue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/queuemanager/UnsortedArrayPriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
+            <state relative-caret-position="1791">
+              <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
               <folding>
                 <element signature="e#2456#2457#0" expanded="true" />
                 <element signature="e#2492#2493#0" expanded="true" />
@@ -459,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/queuemanager/UnsortedArrayPriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
+        <state relative-caret-position="1791">
+          <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
           <folding>
             <element signature="e#2456#2457#0" expanded="true" />
             <element signature="e#2492#2493#0" expanded="true" />

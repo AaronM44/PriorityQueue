@@ -117,25 +117,4 @@ public class UnsortedArrayPriorityQueue<T> implements PriorityQueue<T> {
         result = result + "]";
         return result;
     }
-
-
-    // search for an item, return the index of that item
-    public int linearSearch(String item) {
-
-        boolean valueInArray = false;
-        int indexWithValue = -1;
-
-        for (int i = 0; i < tailIndex + 1; i++) {
-
-            if (storage[i] == item) {
-
-                valueInArray = true;
-
-                indexWithValue = i;
-            }
-        }
-
-        return indexWithValue;
-    }
-
 }
