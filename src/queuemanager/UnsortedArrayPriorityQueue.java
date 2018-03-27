@@ -67,13 +67,36 @@ public class UnsortedArrayPriorityQueue<T> implements PriorityQueue<T> {
         }
     }
 
+    // TODO - REFACTOR - duplicates code from head()
     @Override
     public void remove() throws QueueUnderflowException {
         if (isEmpty()) {
             throw new QueueUnderflowException();
         } else {
 
-            // TODO - remove highest priority item
+            int max = 0;
+            int index = 0;
+
+            // loop // through all items in the queue
+            for (int i = 0; i < tailIndex + 1; i++) {
+
+                // if the priority of the current item is higher than that stored
+                // record the position of the current item
+                if (((PriorityItem<T>) storage[i]).getPriority() > max) {
+
+                    max = ((PriorityItem<T>) storage[i]).getPriority();
+                    index = i;
+                }
+            }
+            // start at the position of the highest priority item and loop through those after it
+            // replacing each value with that of the next item
+            for (int i = index; i < tailIndex + 1; i++) {
+
+                storage[i] = storage[i + 1];
+            }
+
+            // decrement tail index
+            tailIndex--;
         }
     }
 
@@ -93,6 +116,26 @@ public class UnsortedArrayPriorityQueue<T> implements PriorityQueue<T> {
         }
         result = result + "]";
         return result;
+    }
+
+
+    // search for an item, return the index of that item
+    public int linearSearch(String item) {
+
+        boolean valueInArray = false;
+        int indexWithValue = -1;
+
+        for (int i = 0; i < tailIndex + 1; i++) {
+
+            if (storage[i] == item) {
+
+                valueInArray = true;
+
+                indexWithValue = i;
+            }
+        }
+
+        return indexWithValue;
     }
 
 }
