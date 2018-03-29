@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e78f1bf-638a-44ed-a42e-2f474a118c23" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/queuemanager/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queuemanager/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/queuemanager/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PriorityQueue/queuemanager/SortedArrayPriorityQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PriorityQueue/queuemanager/SortedArrayPriorityQueueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PriorityQueue/queuemanager/UnsortedArrayPriorityQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PriorityQueue/queuemanager/UnsortedArrayPriorityQueueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/queuemanager/SortedArrayPriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/queuemanager/SortedArrayPriorityQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/queuemanager/UnsortedArrayPriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/queuemanager/UnsortedArrayPriorityQueueTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="7e78f1bf-638a-44ed-a42e-2f474a118c23" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,8 +65,8 @@
       <file leaf-file-name="LinkedListTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/queuemanager/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+            <state relative-caret-position="228">
+              <caret line="50" column="44" lean-forward="true" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -422,9 +413,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_testAdd - 2018.03.29 at 18h 52m 02s.xml">
-      <configuration name="LinkedListTest.testAdd" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LinkedListTest_testAdd - 2018.03.29 at 18h 53m 04s.xml">
       <configuration name="LinkedListTest.testAdd" configurationId="JUnit" />
     </history-entry>
@@ -451,6 +439,9 @@
     </history-entry>
     <history-entry file="LinkedListTest_testRemove - 2018.03.29 at 19h 07m 37s.xml">
       <configuration name="LinkedListTest.testRemove" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest - 2018.03.29 at 19h 16m 30s.xml">
+      <configuration name="LinkedListTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -725,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/queuemanager/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+        <state relative-caret-position="228">
+          <caret line="50" column="44" lean-forward="true" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
         </state>
       </provider>
     </entry>
