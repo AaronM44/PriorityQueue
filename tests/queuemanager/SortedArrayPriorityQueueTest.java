@@ -6,9 +6,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class UnsortedArrayPriorityQueueTest {
+public class SortedArrayPriorityQueueTest {
 
-    public PriorityQueue<Person> instance = new UnsortedArrayPriorityQueue<>(8);
+    public PriorityQueue<Person> instance = new SortedArrayPriorityQueue<>(8);
 
     @Before
     public void setUp() throws Exception {
