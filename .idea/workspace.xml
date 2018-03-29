@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e78f1bf-638a-44ed-a42e-2f474a118c23" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/queuemanager/SortedArrayPriorityQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queuemanager/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queuemanager/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/queuemanager/LinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PriorityQueue/queuemanager/PriorityQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PriorityQueue/queuemanager/SortedArrayPriorityQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PriorityQueue/queuemanager/SortedArrayPriorityQueueTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/PriorityQueue/queuemanager/UnsortedArrayPriorityQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PriorityQueue/queuemanager/UnsortedArrayPriorityQueueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/queuemanager/PriorityQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/queuemanager/SortedArrayPriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/queuemanager/SortedArrayPriorityQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/queuemanager/UnsortedArrayPriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/queuemanager/UnsortedArrayPriorityQueueTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,17 +38,44 @@
       <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/queuemanager/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="-91">
               <caret line="16" column="30" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnsortedArrayPriorityQueueTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/queuemanager/UnsortedArrayPriorityQueueTest.java">
+      <file leaf-file-name="PriorityItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/queuemanager/PriorityItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="221">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/queuemanager/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/queuemanager/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/queuemanager/LinkedListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -54,8 +83,17 @@
       <file leaf-file-name="SortedArrayPriorityQueueTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/queuemanager/SortedArrayPriorityQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="-1913">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueueUnderflowException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/queuemanager/QueueUnderflowException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -63,7 +101,7 @@
       <file leaf-file-name="UnsortedArrayPriorityQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/queuemanager/UnsortedArrayPriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="-99">
               <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
@@ -74,8 +112,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -92,6 +130,10 @@
         <option value="$PROJECT_DIR$/tests/queuemanager/PriorityQueueTest.java" />
         <option value="$PROJECT_DIR$/tests/queuemanager/UnsortedArrayPriorityQueueTest.java" />
         <option value="$PROJECT_DIR$/tests/queuemanager/SortedArrayPriorityQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/queuemanager/PriorityItem.java" />
+        <option value="$PROJECT_DIR$/src/queuemanager/Node.java" />
+        <option value="$PROJECT_DIR$/src/queuemanager/LinkedList.java" />
+        <option value="$PROJECT_DIR$/tests/queuemanager/LinkedListTest.java" />
       </list>
     </option>
   </component>
@@ -132,6 +174,12 @@
               <item name="PriorityQueue" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PriorityQueue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PriorityQueue" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="queuemanager" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -170,14 +218,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.queuemanager in PriorityQueue">
+  <component name="RunManager" selected="JUnit.LinkedListTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="PriorityQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PriorityQueue" />
       <extension name="coverage">
         <pattern>
@@ -188,9 +236,55 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="queuemanager" />
-      <option name="MAIN_CLASS_NAME" value="queuemanager.PriorityQueueTest" />
+      <option name="MAIN_CLASS_NAME" value="queuemanager.LinkedListTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LinkedListTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PriorityQueue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queuemanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="queuemanager" />
+      <option name="MAIN_CLASS_NAME" value="queuemanager.LinkedListTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LinkedListTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PriorityQueue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queuemanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="queuemanager" />
+      <option name="MAIN_CLASS_NAME" value="queuemanager.LinkedListTest" />
+      <option name="METHOD_NAME" value="testRemove" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -214,52 +308,6 @@
       <option name="MAIN_CLASS_NAME" value="queuemanager.SortedArrayPriorityQueueTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UnsortedArrayPriorityQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PriorityQueue" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queuemanager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="queuemanager" />
-      <option name="MAIN_CLASS_NAME" value="queuemanager.UnsortedArrayPriorityQueueTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UnsortedArrayPriorityQueueTest.testEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PriorityQueue" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queuemanager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="queuemanager" />
-      <option name="MAIN_CLASS_NAME" value="queuemanager.UnsortedArrayPriorityQueueTest" />
-      <option name="METHOD_NAME" value="testEmpty" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -344,19 +392,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.UnsortedArrayPriorityQueueTest" />
-      <item itemvalue="JUnit.UnsortedArrayPriorityQueueTest.testEmpty" />
-      <item itemvalue="JUnit.PriorityQueueTest" />
       <item itemvalue="JUnit.SortedArrayPriorityQueueTest" />
       <item itemvalue="JUnit.queuemanager in PriorityQueue" />
+      <item itemvalue="JUnit.LinkedListTest" />
+      <item itemvalue="JUnit.LinkedListTest.testAdd" />
+      <item itemvalue="JUnit.LinkedListTest.testRemove" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.LinkedListTest.testRemove" />
+        <item itemvalue="JUnit.LinkedListTest.testAdd" />
         <item itemvalue="JUnit.queuemanager in PriorityQueue" />
         <item itemvalue="JUnit.SortedArrayPriorityQueueTest" />
-        <item itemvalue="JUnit.UnsortedArrayPriorityQueueTest" />
-        <item itemvalue="JUnit.PriorityQueueTest" />
-        <item itemvalue="JUnit.UnsortedArrayPriorityQueueTest.testEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -374,35 +422,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PriorityQueueTest - 2018.03.29 at 12h 45m 50s.xml">
-      <configuration name="PriorityQueueTest" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testAdd - 2018.03.29 at 18h 52m 02s.xml">
+      <configuration name="LinkedListTest.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PriorityQueueTest - 2018.03.29 at 13h 21m 46s.xml">
-      <configuration name="PriorityQueueTest" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testAdd - 2018.03.29 at 18h 53m 04s.xml">
+      <configuration name="LinkedListTest.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PriorityQueueTest - 2018.03.29 at 13h 22m 23s.xml">
-      <configuration name="PriorityQueueTest" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testAdd - 2018.03.29 at 18h 53m 31s.xml">
+      <configuration name="LinkedListTest.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PriorityQueueTest - 2018.03.29 at 13h 22m 57s.xml">
-      <configuration name="PriorityQueueTest" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testAdd - 2018.03.29 at 18h 57m 43s.xml">
+      <configuration name="LinkedListTest.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PriorityQueueTest - 2018.03.29 at 13h 24m 32s.xml">
-      <configuration name="PriorityQueueTest" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testAdd - 2018.03.29 at 18h 58m 24s.xml">
+      <configuration name="LinkedListTest.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PriorityQueueTest - 2018.03.29 at 13h 59m 37s.xml">
-      <configuration name="PriorityQueueTest" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testRemove - 2018.03.29 at 19h 04m 24s.xml">
+      <configuration name="LinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsortedArrayPriorityQueueTest - 2018.03.29 at 14h 11m 42s.xml">
-      <configuration name="UnsortedArrayPriorityQueueTest" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testRemove - 2018.03.29 at 19h 06m 54s.xml">
+      <configuration name="LinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsortedArrayPriorityQueueTest - 2018.03.29 at 14h 13m 14s.xml">
-      <configuration name="UnsortedArrayPriorityQueueTest" configurationId="JUnit" />
+    <history-entry file="LinkedListTest - 2018.03.29 at 19h 07m 01s.xml">
+      <configuration name="LinkedListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortedArrayPriorityQueueTest - 2018.03.29 at 14h 14m 34s.xml">
-      <configuration name="SortedArrayPriorityQueueTest" configurationId="JUnit" />
+    <history-entry file="LinkedListTest - 2018.03.29 at 19h 07m 10s.xml">
+      <configuration name="LinkedListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="queuemanager_in_PriorityQueue - 2018.03.29 at 14h 14m 53s.xml">
-      <configuration name="queuemanager in PriorityQueue" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testRemove - 2018.03.29 at 19h 07m 37s.xml">
+      <configuration name="LinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -418,7 +466,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" auto_hide="true" id="Run" order="2" visible="true" weight="0.3281787" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" order="2" type="SLIDING" weight="0.3281787" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -588,20 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/queuemanager/QueueUnderflowException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/queuemanager/PriorityItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/queuemanager/QueueOverflowException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -613,13 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/queuemanager/UnsortedArrayPriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -640,24 +667,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/queuemanager/UnsortedArrayPriorityQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queuemanager/UnsortedArrayPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queuemanager/QueueUnderflowException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/queuemanager/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="-91">
           <caret line="16" column="30" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queuemanager/PriorityItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/queuemanager/SortedArrayPriorityQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="-1913">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/queuemanager/UnsortedArrayPriorityQueueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/queuemanager/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="374">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queuemanager/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/queuemanager/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
         </state>
       </provider>
     </entry>

@@ -13,7 +13,6 @@ public class UnsortedArrayPriorityQueueTest {
     @Before
     public void setUp() throws Exception {
 
-
     }
 
     // tests if the queue is empty
