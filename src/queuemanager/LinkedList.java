@@ -3,7 +3,7 @@ package queuemanager;
 /**
  * Implementation of a Linked List
  */
-public class LinkedList {
+public class LinkedList<T> {
 
     public Node firstNode;
 
