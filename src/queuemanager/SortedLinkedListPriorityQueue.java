@@ -2,18 +2,16 @@ package queuemanager;
 
 public class SortedLinkedListPriorityQueue<T> extends LinkedList implements PriorityQueue<T> {
 
-    ;
-
-    public SortedLinkedListPriorityQueue() {
-
-    }
-
     @Override
     public T head() throws QueueUnderflowException {
+
         if (isEmpty()) {
+
             throw new QueueUnderflowException();
+
         } else {
-            return ((Node<T>)this.firstNode).getItem();
+
+            return ((PriorityItem<T>) firstNode.getItem()).getItem();
         }
     }
 
@@ -55,22 +53,10 @@ public class SortedLinkedListPriorityQueue<T> extends LinkedList implements Prio
                 currentNode = currentNode.next;
             }
         }
-        // if the list is empty at new item as teh first node
+        // if the list is empty add new item as the first node
         else {
 
             firstNode = newNode;
         }
     }
-
-//    @Override
-//    public void remove() throws QueueUnderflowException {
-//
-//    }
-//
-
-//
-//    @Override
-//    public String toString() {
-//
-//    }
 }

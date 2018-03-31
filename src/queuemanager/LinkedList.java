@@ -29,11 +29,13 @@ public class LinkedList<T> {
     }
 
     // remove an item from the list
-    public void remove() {
+    public void remove() throws QueueUnderflowException{
 
-        Node nodeRef = firstNode;
+        if(isEmpty()) {
 
-        if(!isEmpty()) {
+            throw new QueueUnderflowException();
+        }
+        else {
 
             firstNode = firstNode.next;
         }

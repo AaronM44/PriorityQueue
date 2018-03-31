@@ -46,7 +46,13 @@ public class LinkedListTest {
             instance.add(item);
         }
 
-        instance.remove();
+        try {
+            instance.remove();
+        }
+        catch (QueueUnderflowException e)
+        {
+            System.out.println("Can't remove head of queue: " + e);
+        }
 
         String result = instance.toString();
         String expResult = "(person, 5)";
