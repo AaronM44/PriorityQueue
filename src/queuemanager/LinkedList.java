@@ -6,11 +6,15 @@ package queuemanager;
 public class LinkedList<T> {
 
     public Node firstNode;
+    public int size;
 
     public LinkedList() {
 
         firstNode = null;
+        size = 0;
     }
+
+    public int getSize() { return size; }
 
     // check if the list is empty
     public boolean isEmpty() {
@@ -19,13 +23,15 @@ public class LinkedList<T> {
     }
 
     // add an item to the list
-    public <T> void add(T item) {
+    public void add(T item) {
 
         Node newNode = new Node(item);
 
         newNode.next = firstNode;
 
         firstNode = newNode;
+
+        size++;
     }
 
     // remove an item from the list
@@ -38,6 +44,7 @@ public class LinkedList<T> {
         else {
 
             firstNode = firstNode.next;
+            size--;
         }
     }
 

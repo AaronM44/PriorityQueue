@@ -31,6 +31,7 @@ public class SortedLinkedListPriorityQueue<T> extends LinkedList implements Prio
 
                 firstNode = newNode;
                 newNode.next = currentNode;
+                size++;
             }
 
             // iterate through list as long as the priority of the new item is less than
@@ -41,6 +42,7 @@ public class SortedLinkedListPriorityQueue<T> extends LinkedList implements Prio
                 if (currentNode.next == null) {
 
                     currentNode.next = newNode;
+                    size++;
                 }
                 // if the new item is higher or equal in priority to the next item
                 // add new item at current position and shuffle the next one along
@@ -48,6 +50,7 @@ public class SortedLinkedListPriorityQueue<T> extends LinkedList implements Prio
 
                     newNode.next = currentNode.next;
                     currentNode.next = newNode;
+                    size++;
                 }
 
                 currentNode = currentNode.next;
@@ -57,6 +60,7 @@ public class SortedLinkedListPriorityQueue<T> extends LinkedList implements Prio
         else {
 
             firstNode = newNode;
+            size++;
         }
     }
 }
