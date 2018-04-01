@@ -45,7 +45,7 @@ public class UnsortedLinkedListPriorityQueue<T> extends LinkedList implements Pr
     public void remove() throws QueueUnderflowException {
 
         Node previousNode = firstNode;
-        Node currentNode = firstNode.next;
+        Node currentNode = null;
         T head = head();
 
         if (isEmpty()) {
@@ -53,6 +53,10 @@ public class UnsortedLinkedListPriorityQueue<T> extends LinkedList implements Pr
             throw new QueueUnderflowException();
         }
         else {
+
+            // set current node to second node in the list
+            // during testing if this was set earlier it resulted in a null pointer exception
+            currentNode = firstNode.next;
 
             // head is found in the first node
             if (((PriorityItem<T>) firstNode.getItem()).getItem() == head) {
