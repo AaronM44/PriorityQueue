@@ -60,20 +60,17 @@ public class UnsortedLinkedListPriorityQueue<T> extends LinkedList implements Pr
                 firstNode = currentNode;
             }
             else {
-                // head is somewhere in the middle of the list
-                // traverse list until we find the head
+                // traverse list until the head is found
                 while (((PriorityItem<T>) currentNode.getItem()).getItem() != head) {
 
                     previousNode = previousNode.next;
                     currentNode = currentNode.next;
                 }
-
                 // head is the last node in the list
                 if (currentNode.next == null) {
 
                     previousNode.next = null;
                 }
-
                 // head is found somewhere in the middle of the list
                 else {
 
