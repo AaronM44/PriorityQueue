@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e78f1bf-638a-44ed-a42e-2f474a118c23" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/queuemanager/HeapPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queuemanager/HeapPriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queuemanager/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queuemanager/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queuemanager/SortedLinkedListPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queuemanager/SortedLinkedListPriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queuemanager/UnsortedArrayPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queuemanager/UnsortedArrayPriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queuemanager/UnsortedLinkedListPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queuemanager/UnsortedLinkedListPriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/queuemanager/HeapPriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/queuemanager/HeapPriorityQueueTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="7e78f1bf-638a-44ed-a42e-2f474a118c23" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="HeapPriorityQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HeapPriorityQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/queuemanager/HeapPriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1156">
@@ -70,8 +63,8 @@
       <file leaf-file-name="SortedLinkedListPriorityQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/queuemanager/SortedLinkedListPriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="153">
+              <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -92,7 +85,7 @@
       <file leaf-file-name="UnsortedLinkedListPriorityQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/queuemanager/UnsortedLinkedListPriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
+            <state relative-caret-position="-19">
               <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
             </state>
           </provider>
@@ -107,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeapPriorityQueueTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HeapPriorityQueueTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/queuemanager/HeapPriorityQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="3604">
               <caret line="212" selection-start-line="212" selection-end-line="212" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -247,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HeapPriorityQueueTest">
+  <component name="RunManager" selected="JUnit.queuemanager in PriorityQueue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -417,8 +410,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HeapPriorityQueueTest" />
         <item itemvalue="JUnit.queuemanager in PriorityQueue" />
+        <item itemvalue="JUnit.HeapPriorityQueueTest" />
         <item itemvalue="Application.QueueManager" />
         <item itemvalue="JUnit.UnsortedLinkedListPriorityQueueTest" />
         <item itemvalue="JUnit.UnsortedLinkedListPriorityQueueTest.testRemoveEmpty" />
@@ -472,7 +465,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -780,16 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/queuemanager/HeapPriorityQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="212" selection-start-line="212" selection-end-line="212" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/queuemanager/SortedArrayPriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -818,13 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/queuemanager/SortedLinkedListPriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/queuemanager/UnsortedArrayPriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -836,13 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/queuemanager/UnsortedLinkedListPriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/queuemanager/HeapPriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
@@ -850,6 +818,30 @@
           <folding>
             <element signature="e#2380#2381#0" expanded="true" />
             <element signature="e#2416#2417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queuemanager/SortedLinkedListPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queuemanager/UnsortedLinkedListPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/queuemanager/HeapPriorityQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3604">
+          <caret line="212" selection-start-line="212" selection-end-line="212" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
