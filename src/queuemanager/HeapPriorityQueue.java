@@ -37,10 +37,11 @@ public class HeapPriorityQueue<T> implements PriorityQueue<T>{
 
             storage[tailIndex] = new PriorityItem<>(item, priority);
 
-            siftUp();
+            this.shiftUp();
         }
     }
 
+    @Override
     public void remove() throws QueueUnderflowException {
 
         if (isEmpty()) {
@@ -49,12 +50,11 @@ public class HeapPriorityQueue<T> implements PriorityQueue<T>{
         }
         else {
 
-            for (int i = 0; i < tailIndex; i++) {
-                storage[i] = storage[i + 1];
-            }
-            tailIndex = tailIndex - 1;
+            storage[0] = storage[tailIndex];
 
-            siftDown();
+            tailIndex--;
+
+            shiftDown();
         }
     }
 
@@ -63,7 +63,20 @@ public class HeapPriorityQueue<T> implements PriorityQueue<T>{
         return tailIndex < 0;
     }
 
-    private void siftUp() {
+    @Override
+    public String toString() {
+        String result = "[";
+        for (int i = 0; i <= tailIndex; i++) {
+            if (i > 0) {
+                result = result + ", ";
+            }
+            result = result + storage[i];
+        }
+        result = result + "]";
+        return result;
+    }
+
+    private void shiftUp() {
 
         int itemIndex = tailIndex;
 
@@ -87,20 +100,7 @@ public class HeapPriorityQueue<T> implements PriorityQueue<T>{
         }
     }
 
-    @Override
-    public String toString() {
-        String result = "[";
-        for (int i = 0; i <= tailIndex; i++) {
-            if (i > 0) {
-                result = result + ", ";
-            }
-            result = result + storage[i];
-        }
-        result = result + "]";
-        return result;
-    }
-
-    private void siftDown() {
+    private void shiftDown() {
 
         int itemIndex = 0;
         int leftNode = 2 * itemIndex + 1;
@@ -118,7 +118,7 @@ public class HeapPriorityQueue<T> implements PriorityQueue<T>{
                 }
             }
 
-            if (((PriorityItem<T>) storage[itemIndex]).getPriority() > ((PriorityItem<T>) storage[max]).getPriority()) {
+            if (((PriorityItem<T>) storage[itemIndex]).getPriority() < ((PriorityItem<T>) storage[max]).getPriority()) {
 
                 swapValues(itemIndex, max);
 
@@ -132,7 +132,7 @@ public class HeapPriorityQueue<T> implements PriorityQueue<T>{
         }
     }
 
-    public void swapValues(int indexOne, int indexTwo) {
+    private void swapValues(int indexOne, int indexTwo) {
 
         Object temp = storage[indexOne];
         storage[indexOne] = storage[indexTwo];
