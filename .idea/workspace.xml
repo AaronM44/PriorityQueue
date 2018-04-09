@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e78f1bf-638a-44ed-a42e-2f474a118c23" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/queuemanager/HeapPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queuemanager/HeapPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/queuemanager/HeapPriorityQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,20 +32,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeapPriorityQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HeapPriorityQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/queuemanager/HeapPriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="117" column="17" lean-forward="true" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
+            <state relative-caret-position="34">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortedArrayPriorityQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/queuemanager/SortedArrayPriorityQueue.java">
+      <file leaf-file-name="HeapPriorityQueueTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/queuemanager/HeapPriorityQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="92" column="4" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
+            <state relative-caret-position="384">
+              <caret line="212" column="8" selection-start-line="212" selection-start-column="8" selection-end-line="212" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortedArrayPriorityQueueTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/queuemanager/SortedArrayPriorityQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -55,8 +68,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -83,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/queuemanager/PriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/queuemanager/QueueManager.java" />
         <option value="$PROJECT_DIR$/src/queuemanager/HeapPriorityQueue.java" />
+        <option value="$PROJECT_DIR$/tests/queuemanager/HeapPriorityQueueTest.java" />
       </list>
     </option>
   </component>
@@ -167,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueueManager">
+  <component name="RunManager" selected="JUnit.HeapPriorityQueueTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -185,7 +199,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SortedLinkedListPriorityQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeapPriorityQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PriorityQueue" />
       <extension name="coverage">
         <pattern>
@@ -196,7 +210,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="queuemanager" />
-      <option name="MAIN_CLASS_NAME" value="queuemanager.SortedLinkedListPriorityQueueTest" />
+      <option name="MAIN_CLASS_NAME" value="queuemanager.HeapPriorityQueueTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -330,18 +344,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.QueueManager" />
-      <item itemvalue="JUnit.SortedLinkedListPriorityQueueTest" />
       <item itemvalue="JUnit.queuemanager in PriorityQueue" />
       <item itemvalue="JUnit.UnsortedLinkedListPriorityQueueTest" />
       <item itemvalue="JUnit.UnsortedLinkedListPriorityQueueTest.testRemoveEmpty" />
+      <item itemvalue="JUnit.HeapPriorityQueueTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeapPriorityQueueTest" />
+        <item itemvalue="JUnit.queuemanager in PriorityQueue" />
         <item itemvalue="Application.QueueManager" />
         <item itemvalue="JUnit.UnsortedLinkedListPriorityQueueTest" />
         <item itemvalue="JUnit.UnsortedLinkedListPriorityQueueTest.testRemoveEmpty" />
-        <item itemvalue="JUnit.queuemanager in PriorityQueue" />
-        <item itemvalue="JUnit.SortedLinkedListPriorityQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -359,35 +373,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnsortedLinkedListPriorityQueueTest - 2018.04.01 at 11h 46m 42s.xml">
-      <configuration name="UnsortedLinkedListPriorityQueueTest" configurationId="JUnit" />
+    <history-entry file="HeapPriorityQueueTest - 2018.04.09 at 18h 26m 56s.xml">
+      <configuration name="HeapPriorityQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsortedLinkedListPriorityQueueTest - 2018.04.01 at 11h 52m 24s.xml">
-      <configuration name="UnsortedLinkedListPriorityQueueTest" configurationId="JUnit" />
+    <history-entry file="HeapPriorityQueueTest - 2018.04.09 at 18h 46m 07s.xml">
+      <configuration name="HeapPriorityQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsortedLinkedListPriorityQueueTest - 2018.04.01 at 11h 58m 02s.xml">
-      <configuration name="UnsortedLinkedListPriorityQueueTest" configurationId="JUnit" />
+    <history-entry file="queuemanager_in_PriorityQueue - 2018.04.09 at 18h 46m 39s.xml">
+      <configuration name="queuemanager in PriorityQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsortedLinkedListPriorityQueueTest - 2018.04.01 at 12h 03m 20s.xml">
-      <configuration name="UnsortedLinkedListPriorityQueueTest" configurationId="JUnit" />
+    <history-entry file="HeapPriorityQueueTest - 2018.04.09 at 19h 37m 57s.xml">
+      <configuration name="HeapPriorityQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsortedLinkedListPriorityQueueTest_testRemoveEmpty - 2018.04.01 at 12h 05m 08s.xml">
-      <configuration name="UnsortedLinkedListPriorityQueueTest.testRemoveEmpty" configurationId="JUnit" />
+    <history-entry file="HeapPriorityQueueTest - 2018.04.09 at 19h 42m 39s.xml">
+      <configuration name="HeapPriorityQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsortedLinkedListPriorityQueueTest_testRemoveEmpty - 2018.04.01 at 12h 05m 45s.xml">
-      <configuration name="UnsortedLinkedListPriorityQueueTest.testRemoveEmpty" configurationId="JUnit" />
+    <history-entry file="HeapPriorityQueueTest - 2018.04.09 at 19h 47m 47s.xml">
+      <configuration name="HeapPriorityQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsortedLinkedListPriorityQueueTest_testRemoveEmpty - 2018.04.01 at 12h 06m 11s.xml">
-      <configuration name="UnsortedLinkedListPriorityQueueTest.testRemoveEmpty" configurationId="JUnit" />
+    <history-entry file="HeapPriorityQueueTest - 2018.04.09 at 19h 48m 43s.xml">
+      <configuration name="HeapPriorityQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsortedLinkedListPriorityQueueTest_testRemoveEmpty - 2018.04.01 at 12h 07m 04s.xml">
-      <configuration name="UnsortedLinkedListPriorityQueueTest.testRemoveEmpty" configurationId="JUnit" />
+    <history-entry file="HeapPriorityQueueTest - 2018.04.09 at 19h 49m 17s.xml">
+      <configuration name="HeapPriorityQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsortedLinkedListPriorityQueueTest_testRemoveEmpty - 2018.04.01 at 12h 08m 03s.xml">
-      <configuration name="UnsortedLinkedListPriorityQueueTest.testRemoveEmpty" configurationId="JUnit" />
+    <history-entry file="HeapPriorityQueueTest - 2018.04.09 at 19h 50m 15s.xml">
+      <configuration name="HeapPriorityQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnsortedLinkedListPriorityQueueTest - 2018.04.01 at 12h 09m 51s.xml">
-      <configuration name="UnsortedLinkedListPriorityQueueTest" configurationId="JUnit" />
+    <history-entry file="HeapPriorityQueueTest - 2018.04.09 at 19h 51m 59s.xml">
+      <configuration name="HeapPriorityQueueTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -407,7 +421,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -428,7 +442,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -651,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/queuemanager/SortedArrayPriorityQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-903">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/queuemanager/PriorityItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -751,8 +758,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/queuemanager/HeapPriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="117" column="17" lean-forward="true" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/queuemanager/SortedArrayPriorityQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/queuemanager/HeapPriorityQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="212" column="8" selection-start-line="212" selection-start-column="8" selection-end-line="212" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
