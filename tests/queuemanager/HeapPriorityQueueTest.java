@@ -210,7 +210,7 @@ public class HeapPriorityQueueTest {
 
         boolean expResult = true;
         boolean result = instance.isEmpty();
-        
+
         assertEquals(expResult, result);
     }
 }

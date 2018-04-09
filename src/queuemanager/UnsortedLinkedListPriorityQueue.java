@@ -1,7 +1,20 @@
 package queuemanager;
 
+/**
+ * Implementation of the PriorityQueue ADT using an unsorted linked list.
+ *
+ * Data is stored in the order it comes into the queue
+ *
+ * @param <T> The type of things being stored.
+ */
 public class UnsortedLinkedListPriorityQueue<T> extends LinkedList implements PriorityQueue<T> {
 
+    /**
+     * Adds an item to the queue
+     *
+     * @param item
+     * @param priority
+     */
     @Override
     public void add(T item, int priority) {
 
@@ -10,6 +23,14 @@ public class UnsortedLinkedListPriorityQueue<T> extends LinkedList implements Pr
         this.add(newItem);
     }
 
+    /**
+     * Return the highest priority item in the queue
+     *
+     * Requires searching through the list
+     *
+     * @return
+     * @throws QueueUnderflowException
+     */
     @Override
     public T head() throws QueueUnderflowException {
 
@@ -41,6 +62,11 @@ public class UnsortedLinkedListPriorityQueue<T> extends LinkedList implements Pr
         return item.getItem();
     }
 
+    /**
+     * Removes the highest priority item in the queue
+     *
+     * @throws QueueUnderflowException
+     */
     @Override
     public void remove() throws QueueUnderflowException {
 

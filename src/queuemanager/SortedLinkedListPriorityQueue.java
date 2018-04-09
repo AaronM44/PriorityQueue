@@ -1,7 +1,20 @@
 package queuemanager;
 
+/**
+ * Implementation of the PriorityQueue ADT using a sorted linked list.
+ *
+ * Highest priority item should always be stored at the front of the queue
+ *
+ * @param <T> The type of things being stored.
+ */
 public class SortedLinkedListPriorityQueue<T> extends LinkedList implements PriorityQueue<T> {
 
+    /**
+     * Returns the highest priority item
+     *
+     * @return
+     * @throws QueueUnderflowException
+     */
     @Override
     public T head() throws QueueUnderflowException {
 
@@ -15,7 +28,12 @@ public class SortedLinkedListPriorityQueue<T> extends LinkedList implements Prio
         }
     }
 
-    // add item by priority
+    /**
+     * Adds an item to the queue
+     *
+     * @param item
+     * @param priority
+     */
     @Override
     public void add(T item, int priority) {
 

@@ -1,5 +1,12 @@
 package queuemanager;
 
+/**
+ * Implementation of the PriorityQueue ADT using an unsorted array.
+ *
+ * Data is stored in the order it comes into the queue
+ *
+ * @param <T> The type of things being stored.
+ */
 public class UnsortedArrayPriorityQueue<T> implements PriorityQueue<T> {
 
     /**
@@ -30,6 +37,12 @@ public class UnsortedArrayPriorityQueue<T> implements PriorityQueue<T> {
         tailIndex = -1;
     }
 
+    /**
+     * Return the highest priority item
+     *
+     * @return
+     * @throws QueueUnderflowException
+     */
     @Override
     public T head() throws QueueUnderflowException {
 
@@ -54,13 +67,21 @@ public class UnsortedArrayPriorityQueue<T> implements PriorityQueue<T> {
         }
     }
 
+    /**
+     * Adds an item to the queue
+     *
+     * @param item
+     * @param priority
+     * @throws QueueOverflowException
+     */
     @Override
     public void add(T item, int priority) throws QueueOverflowException {
 
-        tailIndex = tailIndex + 1;
+        tailIndex +=1;
+
         if (tailIndex >= capacity) {
-            /* No resizing implemented, but that would be a good enhancement. */
-            tailIndex = tailIndex - 1;
+
+            tailIndex -= 1;
             throw new QueueOverflowException();
         } else {
 
@@ -68,7 +89,11 @@ public class UnsortedArrayPriorityQueue<T> implements PriorityQueue<T> {
         }
     }
 
-    // TODO - REFACTOR - duplicates code from head()
+    /**
+     * Remove the highest priority ite from the queue
+     *
+     * @throws QueueUnderflowException
+     */
     @Override
     public void remove() throws QueueUnderflowException {
         if (isEmpty()) {
@@ -101,11 +126,21 @@ public class UnsortedArrayPriorityQueue<T> implements PriorityQueue<T> {
         }
     }
 
+    /**
+     * Check if the queue is empty
+     *
+     * @return
+     */
     @Override
     public boolean isEmpty() {
         return tailIndex < 0;
     }
 
+    /**
+     * Method for printing the queue
+     *
+     * @return
+     */
     @Override
     public String toString() {
         String result = "[";
